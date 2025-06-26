@@ -18,7 +18,7 @@
   </head>
   <body>
     <a-scene
-      mindar-image="imageTargetSrc: target.mind; autoStart: true"
+      mindar-image="imageTargetSrc: ./target.mind; autoStart: true"
       embedded
       color-space="sRGB"
       renderer="colorManagement: true, physicallyCorrectLights"
@@ -26,7 +26,7 @@
       device-orientation-permission-ui="enabled: true"
     >
       <a-assets>
-        <a-asset-item id="model" src="/pages/models/良渚玉三叉形器.gltf"></a-asset-item>
+        <a-asset-item id="model" src="./pages/models/良渚玉三叉形器.gltf"></a-asset-item>
       </a-assets>
 
       <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
